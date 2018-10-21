@@ -1,0 +1,153 @@
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 px;
+    margin: 0 px;
+    background-color:white;
+}
+ul, ol, li{
+    list-style: none;   
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+  }
+
+a:hover{
+    color:#2d65ff;
+    font-weight: bold;
+  }
+
+.men{
+    background-color: #ddd7dd;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    padding-bottom: 0px;
+    margin-left: -8px;
+    margin-top: -9px;
+    margin-right: -10px;
+    position: none;
+  }
+  .banner{
+    text-shadow:2px 2px 5px #000
+  }
+  .men li{
+    display: inline;
+    padding-left: 80px;
+  }
+
+  .men img{
+    width: 130px;
+    height: 88px;
+  }
+
+  main .banner{
+      text-align: center;
+  }
+
+  main{
+    padding-top: 114px;
+    padding-bottom: -185px;
+    margin-top: 8px;
+    background-image: url(../images/fundo.jpg);
+    background-repeat: no-repeat;
+    /*background-size:cover;*/
+    /* o background size sendo possivel a configuração de altura e largura background-size: 145px 166px; */
+    background-size: 1260px 300px;
+    
+  }
+
+  main h1{
+      margin-bottom: 10px ;
+      
+  }
+
+  .estilo-imagem{
+    border: solid gray 2px;
+    border-radius: 60px;
+  }
+
+  .container{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row-reverse;
+      flex-wrap: row wrap;
+      padding:50px;
+      background-color: black;
+      margin-top: 131px;
+      color: white;
+    }
+
+  .objetivo{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding:50px;
+      background-color: dimgray;
+      margin-top: 10px;
+    }
+
+  .estilo-obj{
+    border-radius: 60px;
+    border: #000
+    
+  }
+
+  .estilo-form{
+    width: 150px;
+    
+  }
+
+  .forma {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 7px;
+    
+  }
+
+  .profi{
+    display: flex;
+    background-color: white;
+  }
+  .expe {
+    color: black;
+    text-align: center;
+    margin-bottom: -156px;
+}
+
+  h2{
+    color:gray;
+  }
+  #profi{
+    background-color:none; 
+  }
+  .mentos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: row wrap;
+    padding:50px;
+    background-color: black;
+    margin-top: 131px;
+    color: white;
+  }
+  .estilo-office{
+    width: 50px;
+  }
+  .mentos > ul> li:first-child{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #2d65ff
+  }
